@@ -1,7 +1,16 @@
+# Environments
 venv/
 .venv/
+.env
+
+# Cache
 __pycache__/
-*.pyc
+*.py[cod]
 .DS_Store
-.vscode/
-Dataset.zip
+
+# Data
+data/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
